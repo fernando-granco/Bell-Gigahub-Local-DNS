@@ -49,11 +49,11 @@ def get_config():
         print("ERROR: Password is required.", file=sys.stderr)
         sys.exit(1)
 
-    dns1 = input("Primary DNS (DNS 1) [192.168.2.10]: ").strip()
+    dns1 = input("Primary DNS (DNS 1): ").strip()
     if not dns1:
         dns1 = "192.168.2.10"
 
-    dns2 = input("Secondary DNS (DNS 2) [192.168.2.10]: ").strip()
+    dns2 = input("Secondary DNS (DNS 2): ").strip()
     if not dns2:
         dns2 = dns1
 

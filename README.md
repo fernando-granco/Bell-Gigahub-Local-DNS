@@ -32,7 +32,7 @@ No extra Python packages are required.
 
 ## Usage
 
-Download or clone this repository, then run:
+Download and run:
 
 ```powershell
 python bell_gigahub_pihole_dns.py
@@ -43,13 +43,12 @@ The script prompts for:
 ```text
 Router IP [192.168.2.1]
 Admin password
-Primary DNS (DNS 1) [192.168.2.10]
-Secondary DNS (DNS 2) [192.168.2.10]
+Primary DNS (DNS 1):
+Secondary DNS (DNS 2): 
 ```
 
-For a Pi-hole at `192.168.2.10`, you can press Enter for the default DNS
-prompts. To use one DNS server only, enter the same IP for both primary and
-secondary DNS, or leave secondary blank to reuse the primary DNS value.
+If your Pi-hole is at `192.168.2.10`, you can press Enter for the default DNS
+prompts. To use one DNS server only you leave secondary blank to reuse the primary DNS value.
 
 After the script finishes, renew the DHCP lease on your client devices so they
 start using the updated router DNS relay path:
@@ -95,7 +94,7 @@ opening that website.
 
 ## Notes
 
-- This worked as of June 18, 2026. If Bell changes the Gigahub firmware, this
+- This worked as of June 19, 2026. If Bell changes the Gigahub firmware, this
   method may need to be updated.
 - If you later change DHCP-related settings in the Gigahub web interface, the
   DNS relay settings may be reset. Re-run the script if that happens.
