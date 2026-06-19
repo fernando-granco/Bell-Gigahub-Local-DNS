@@ -44,11 +44,12 @@ The script prompts for:
 Router IP [192.168.2.1]
 Admin password
 Primary DNS (DNS 1):
-Secondary DNS (DNS 2): 
+Secondary DNS (DNS 2):
 ```
 
 If your Pi-hole is at `192.168.2.10`, you can press Enter for the default DNS
-prompts. To use one DNS server only you leave secondary blank to reuse the primary DNS value.
+prompts. To use one DNS server only, leave secondary blank to reuse the primary
+DNS value.
 
 After the script finishes, renew the DHCP lease on your client devices so they
 start using the updated router DNS relay path:
