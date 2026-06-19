@@ -61,6 +61,10 @@ ipconfig /renew
 On macOS, Linux, phones, and tablets, renew the DHCP lease, toggle Wi-Fi off and
 on, or reboot the device.
 
+## Screenshot
+
+![Bell Gigahub Local DNS script output](assets/gigahub-local-dns-screenshot.png)
+
 ## How It Works
 
 1. The script asks for the router IP, admin password, primary DNS server, and
