@@ -104,7 +104,9 @@ server, making both the DNS change and your internet connection unusable.
 
 ## Screenshot
 
-![Bell Gigahub Local DNS script output (firmware 3.11.6.2)](assets/fw3gigahub-local-dns-screenshot.png)
+<img src="assets/fw3gigahub-local-dns-screenshot.png"
+     alt="Bell Gigahub Local DNS script output (firmware 3.11.6.2)"
+     width="542">
 
 ## How It Works
 
